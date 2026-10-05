@@ -1,0 +1,26 @@
+body {
+  box-sizing: border-box;
+  width: calc(100% - 2rem);
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 10vh 0;
+  background-color: #000;
+  color: #fff;
+  font-family: monospace;
+  line-height: 1.7;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+::selection {
+  background-color: #fff;
+  color: #000;
+}
+
+footer {
+  margin-top: 4rem;
+  font-size: 0.8rem;
+}
